@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<html link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logan Sailer's Website</title>
+</head>
+<body>
+  <header>
+    <div>
+      Logan Sailer
+      <ul>
+        <li>About me</li>
+        <li>My Projects</li>
+        <li>Contact information</li>
+    </div>
+  </header>
+  <main id="main">
+    <h1>My Portfolio</h1>
+      <p>look mom, I did it</p>
+    <figure id="img-div">
+      <img id="image" src=""/>
+      <p id="image-caption">Me doing____</p>
+    </figure>
+    <div>
+      <h2>About me</h2>
+    </div>
+    <div>
+      <h2>My Projects</h2>
+    </div>
+    <div>
+      <h2>Contact information</h2>
+      <p>My <a target="_blank" href="">Linkedin</a></p>
+    </div>
+  </main>
+</body>
+</html>
