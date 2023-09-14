@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<html link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logan Sailer's Website</title>
+    <title id="title">Logan Sailer's Website</title>
 </head>
 <body>
   <header>
     <div>
       Logan Sailer
+      <nav>
       <ul>
         <li>About me</li>
         <li>My Projects</li>
         <li>Contact information</li>
+      </ul>
+      </nav>
     </div>
   </header>
   <main id="main">
     <h1>My Portfolio</h1>
       <p>look mom, I did it</p>
     <figure id="img-div">
-      <img id="image" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fq1065.fm%2Fwatching-kids-using-old-computers-is-funny-video%2F&psig=AOvVaw3DPYwfErfA19vLeWtfFlPC&ust=1694698924381000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKj488zbp4EDFQAAAAAdAAAAABAb" alt="kid pointing at computer screen"/>
-      <p id="image-caption">me as a kid</p>
+      <img id="image" class="image" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="kid pointing at computer screen"/>
+      <div id="img-caption">
+        <p>me as a kid</p>
+      </div>
     </figure>
     <div>
       <h2>About me</h2>
         <p id="tribute-info">My name is Logan Sailer. I began lerning HTML yesterday. Look at all my progress!</p>
-        <p id="tribute-link">My <a target="_blank" href="www.linkedin.com/in/logan-sailer-baab99207">Linkedin</a></p>
+        <p>My <a id="tribute-link" target="_blank" href="www.linkedin.com/in/logan-sailer-baab99207">Linkedin</a></p>
     </div>
     <div>
       <h2>My Projects</h2>
     </div>
     <div>
       <h2>Contact information</h2>
-      <p>My <a target="_blank" href="www.linkedin.com/in/logan-sailer-baab99207">Linkedin</a></p>
+      <p>My <a id="tribute-link" target="_blank" href="www.linkedin.com/in/logan-sailer-baab99207">Linkedin</a></p>
     </div>
   </main>
 </body>
